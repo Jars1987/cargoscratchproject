@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;700&display=swap');
+
+.header {
+  height: 2rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(25, 62, 105, 0.8);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.header__left__logo {
+  display: flex;
+  width: 8rem;
+  padding-top: 10px;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.header__left__logo > p {
+  font-size: 1rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.header__left__flag {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.logo {
+  object-fit: contain;
+  width: 2rem;
+  border-radius: 50%;
+  box-shadow: 0 8px 6px -6px white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > img {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container > p {
+  font-size: 0.5rem;
+  color: white;
+}

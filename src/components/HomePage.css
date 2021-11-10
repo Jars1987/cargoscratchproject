@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;700&display=swap');
+
+.homeheader {
+  height: 100vh;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.homeheader__footer {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  background-color: lightgrey;
+  bottom: 0;
+  padding-bottom: 6px;
+}
+
+.homeheader__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 9rem;
+  width: 14rem;
+  padding: 0 1rem 1rem 1rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  position: absolute;
+  z-index: 3;
+  left: 7.5%;
+  animation: fadeIn 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    display: none;
+  }
+  25% {
+    display: inline-block;
+    background-color: rgba(25, 62, 105, 0.1);
+  }
+  33% {
+    background-color: rgba(25, 62, 105, 0.2);
+  }
+  50% {
+    background-color: rgba(25, 62, 105, 0.3);
+  }
+  66% {
+    background-color: rgba(25, 62, 105, 0.4);
+  }
+  75% {
+    background-color: rgba(25, 62, 105, 0.6);
+  }
+  87% {
+    background-color: rgba(25, 62, 105, 0.7);
+  }
+  100% {
+    background-color: rgba(25, 62, 105, 0.9);
+  }
+}
+
+.map__container {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+}
+
+.homeheader__left__logo {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.homeheader__left__flag {
+  display: flex;
+  align-items: center;
+  align-self: end;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.homelogo {
+  object-fit: contain;
+  width: 4rem;
+  border-radius: 50%;
+  box-shadow: 0 8px 6px -6px white;
+}
+
+.homecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homecontainer > img {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.homecontainer > p {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.homeheader__left__logo > p {
+  font-size: 2.5rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.homeheader__link {
+  text-decoration: none;
+  flex-grow: 5;
+  display: flex;
+}
+
+.homeheader__rightComponent {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  position: absolute;
+  z-index: 3;
+}
+
+.homeheader__right {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  justify-content: space-evenly;
+  background-color: rgba(25, 62, 105, 0.8);
+  border-bottom-left-radius: 0.4rem;
+}
+
+.homeheader__right > .homeheader__link {
+  align-self: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0 0.5rem 0 0.5rem;
+  color: white;
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.1s ease 0s;
+}
+
+.homeheader__right > .homeheader__link:hover {
+  border-bottom: 3px solid white;
+}
+
+.homeheader__signIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem;
+  margin-left: 0.3rem;
+  color: white;
+  background-color: rgba(18, 47, 81, 0.6);
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+.homeheader__signIn:hover {
+  cursor: pointer;
+}
+
+.Home__avatar {
+  transition: all 1s ease 0s;
+}
+
+.homeheader__signIn:hover .Home__avatar {
+  transform: scale(125%);
+}
+
+.homeheader__signIn > p {
+  font-weight: 500;
+}
+
+.homeheader__right > .homeheader__menuButton {
+  display: none;
+}
+
+.homeheader_menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(25, 62, 105, 0.8);
+  border-bottom-left-radius: 0.4rem;
+  height: 9rem;
+  width: 8rem;
+}
+
+.homeheader_menu > .homeheader__menulink {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  height: 3rem;
+}
+
+.homeheader__menulink > p {
+  padding-right: 0.5rem;
+}
+
+.homeheader__menulink > p:hover {
+  font-weight: 600;
+}
+
+.homeheader__counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  z-index: 3;
+  bottom: 10%;
+  height: 6rem;
+  width: 13rem;
+  padding: 0.5rem;
+  border-radius: 5%;
+}
+
+.homeheader__counter > .homeehader__counter__display {
+  color: white;
+  flex-wrap: nowrap;
+  padding-bottom: 0.1rem;
+  font-family: Kanit;
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 2px solid white;
+  min-width: 85%;
+  text-align: center;
+}
+
+.homeheader__counter > .homeehader__counter__description {
+  color: white;
+  padding-top: 0.1rem;
+  font-family: Kanit;
+  font-weight: 400;
+  text-align: center;
+}
+
+.homeheader__animation__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  z-index: 3;
+  top: 20%;
+  left: 30%;
+}
+
+.homeheader__animation__container > .homeehader__animation__p1 {
+  animation: introP1 7s ease-in 1s;
+}
+
+.homeheader__animation__container > .homeehader__animation__p1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Kanit;
+  border-bottom: 3px solid white;
+  box-shadow: 0 8px 6px -6px white;
+  padding-top: 1.5rem;
+  opacity: 0;
+}
+
+@keyframes introP1 {
+  5% {
+    opacity: 0.5;
+  }
+  15% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+  .homeheader {
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .homeheader__left {
+    left: 0;
+    border-bottom-left-radius: 0;
+    height: 6rem;
+    width: 10rem;
+  }
+
+  .homelogo {
+    width: 2rem;
+  }
+  .homeheader__left__logo > p {
+    font-size: 1.5rem;
+  }
+
+  .homeheader__right {
+    margin: 1rem 0 0 0;
+    border-radius: 0;
+    border-top-left-radius: 0.4rem;
+    width: 8rem;
+  }
+  .homeheader__right > .homeheader__link {
+    display: none;
+  }
+  .homeheader__right > .homeheader__menuButton {
+    display: inline;
+    color: white;
+    padding: 0.9rem;
+    transition: all 0.1s ease 0s;
+  }
+  .homeheader__right > .homeheader__menu:hover {
+    transform: scale(125%);
+    cursor: pointer;
+  }
+
+  .homeheader__signIn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .homeheader__tracker {
+    bottom: 5%;
+  }
+  .homeheader__animation__container {
+    left: 10%;
+  }
+}
