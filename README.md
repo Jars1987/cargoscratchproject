@@ -22,7 +22,7 @@ I decided to leave this project as public as this was an excelent mapbox
 playground. I make it available for everyone as I faced a few strugles trying to
 make everything work together and this example might help other people.
 
-# What is left to be complete
+# What is left to be completed
 
 This is but a sketch but there are a lot of things left to be done and other
 features that could be added.
