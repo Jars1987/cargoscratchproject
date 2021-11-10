@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# What is this Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was initially done as I received an invitation to build one company
+new website. The website should be inpired on the regnskogfondet fouding page to
+save the rain forest.
 
-## Available Scripts
+The website homepage should have had a 3D map in the background and after
+loading the user should be presented with a camera tour, like an airplane flying
+through a map, until we reach one of the company's locations. Once we reach this
+location a popup should emerge with photos or videos and invite the user to
+click and explore the location and it's services.
 
-In the project directory, you can run:
+As I did not have the time, the means or even the skills necessary for such
+build I refused. Instead
 
-### `npm start`
+I still had the Idea on the back of my mind and so I decided to do this sample
+project. In it's core it follow the same ideas but in a 2d approach.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Why is this public if not finished
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I decided to leave this project as public as this was an excelent mapbox
+playground. I make it available for everyone as I faced a few strugles trying to
+make everything work together and this example might help other people.
 
-### `npm test`
+# What is left to be complete
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is but a sketch but there are a lot of things left to be done and other
+features that could be added.
 
-### `npm run build`
+1- Better color and styling (it was not my focus) 2- Choose other Routes or add
+more layers 3- Add a Services page (Services Homepage) 4- Add Services/id page
+(:id = locations) 5- Add a news page 6- Add a Track and Trace page 7- Add a News
+page 8- Add Authentication 9- Add an Admin page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I am sure there's much more it can be done and improved.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Remember this is just here in case anyone wants to use it as example for
+mapbox-gl
